@@ -1,0 +1,26 @@
+<div class="knight">
+	<div class="yourName">HERO : {{name}}</div>
+	<div class="goods-left">
+		<div class="btn-warning" (click)="undressHero(helmet)">
+			<img src="{{helmet ? helmet?.view : '../../assets/img/Icon-empty.png'}}"  width="80px" height="80px" alt="helmet">
+		</div>
+		<div class="btn-warning" (click)="undressHero(shield)">
+			<img src="{{shield ? shield?.view : '../../assets/img/Icon-empty.png'}}" width="80px" height="80px" alt="shield">
+		</div>
+    <div class="btn-warning" (click)="undressHero(armor)">
+			<img src="{{armor ? armor?.view: '../../assets/img/Icon-empty.png'}}" width="80px" height="80px" alt="armor">
+		</div>
+		<div class="btn-warning" (click)="undressHero(boots)">
+			<img src="{{boots ? boots?.view : '../../assets/img/Icon-empty.png'}}" width="80px" height="80px" alt="boots"></div>
+	</div>
+	<div class="goods-right">
+		<div class="btn-warning" (click)="undressHero(bracers)">
+			<img src="{{bracers ? bracers?.view : '../../assets/img/Icon-empty.png'}}" width="80px" height="80px" alt="bracers"></div>
+		<div class="btn-warning" (click)="undressHero(belt)">
+			<img src="{{belt ? belt?.view : '../../assets/img/Icon-empty.png'}}" width="80px" height="80px" alt="belt"></div>
+		<div class="btn-warning" (click)="undressHero(sword)">
+			<img src="{{sword ? sword?.view : '../../assets/img/Icon-empty.png'}}" width="80px" height="160px" alt="sword">
+		</div>
+	</div>
+	
+</div>
