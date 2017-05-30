@@ -5,10 +5,10 @@
 Статы отражены в отдельном окне., в зависимости от типа оружия, вещей - изменяются.</br>
 <hr>
 
-<a href="https://meddokss.github.io/HEROGAME"><img src="see.png" alt="Посмотреть"></a>
+<a target="_blank" href="https://meddokss.github.io/HEROGAME"><img src="see.png" alt="Посмотреть"></a>
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 The app will automatically reload if you change any of the source files.
-<img src="HeroGAME.png" alt="HeroGAME">
+<a target="_blank" href="https://meddokss.github.io/HEROGAME"><img src="HeroGAME.png" alt="HeroGAME"></a>
 
